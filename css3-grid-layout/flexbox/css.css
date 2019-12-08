@@ -1,0 +1,14 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+.flex li {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3.1fr);
+  grid-gap: 20px;
+}
