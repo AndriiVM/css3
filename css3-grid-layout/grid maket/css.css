@@ -1,6 +1,6 @@
 #grid {
   display: grid;
-  grid-template-columns: 150px 1fr 150px;
+  grid-template-columns: 150px 1fr 1fr 150px;
   grid-template-rows: 1fr;
 }
 .grid-item {
@@ -9,5 +9,5 @@
   border: 1px solid #fff
 }
 .grid-item-first{
-  grid-column-start: 2;
+  grid-column-start: 3;
 }
